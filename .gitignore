@@ -2,3 +2,8 @@
 ./pcaps/
 ./csv/
 ./csvs/
+
+**/target
+**/*.rs.bk
+**/Cargo.lock
+**/*.*qlog

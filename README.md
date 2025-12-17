@@ -25,18 +25,20 @@ cargo build --examples --features qlog
 
 ### Steps to run:
 
-1. Start a http3-server:
+Start a http3-server:
 
 ```bash
  cd quiche/quiche
  ../target/debug/examples/http3-server cca
 ```
 
-1. Run the client:
+(N.B: Files inside examples/root are served by the server)
+
+Run the client:
 
    ```bash
    cd quiche/quiche
-   QLOGDIR=. ../target/debug/examples/http3-client http://192.168.122.33:4433/bbb.mp4 cubic > /dev/null
+   QLOGDIR=. ../target/debug/examples/http3-client http://192.168.122.33:4433/sample.txt cubic > /dev/null
    ```
 
 N.B: Last argument can be: cubic/reno/bbr/bbr2
