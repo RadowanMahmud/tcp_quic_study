@@ -1,4 +1,5 @@
 # Performance Study of QUIC over Cellular Network
+The data (`.csv`, `.pcap`, and `.qlog` files) we collected is available at our [Google Drive](https://drive.google.com/drive/folders/1haChcwlOEkmCqCOJlA2zpxK80kjakfPz?usp=sharing) due to its size (~7GB). 
 
 ### Setup the environment
 
